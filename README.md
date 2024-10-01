@@ -1,7 +1,7 @@
 # Overview
 This project implements a data processing pipeline for a renewable energy company that operates a farm of wind turbines. The pipeline ingests raw data from the turbines, cleans it by handling missing values and outliers, calculates summary statistics for power output, identifies anomalies, and stores the processed data in an Azure-based storage system using Spark. The code is designed to be scalable and testable, making it suitable for a production environment.
 
-# Funtional Requirements
+# Functional Requirements
 The pipeline performs the following key operations:
 1. Data Cleaning:
 Imputes missing values in the dataset.
