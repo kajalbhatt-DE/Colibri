@@ -9,10 +9,11 @@ Detects outliers based on the interquartile range (IQR) method.
 
 2. Summary Statistics:
 Calculates the minimum, maximum, and average power output for each turbine over a specified time period.
-Anomaly Detection:
+
+3. Anomaly Detection:
 Identifies turbines with power output deviations beyond ±2 standard deviations from the mean.
 
-3. Data Storage:
+4. Data Storage:
 Writes the cleaned data to the Silver layer in Parquet format.
 Stores the summary statistics in the Gold layer.
 
